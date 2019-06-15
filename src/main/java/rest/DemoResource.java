@@ -45,7 +45,7 @@ public class DemoResource {
       em.close();
     }
   }
-
+//
   @GET
   @Produces(MediaType.APPLICATION_JSON)
   @Path("user")
